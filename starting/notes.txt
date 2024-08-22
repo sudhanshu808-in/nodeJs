@@ -4,3 +4,6 @@ Now the v8 engine was made in c++ so  the js which we write cannot be used direc
 So he created a  type of wrapper around the v8 engine which was of Js language
 So now the js which we write can be used for backend operations and it can be used for creating and this enviornment  is called  js run time enviornment or node js
 So now the js which we write can be used for backend operations......................
+
+
+npm  is like app store or playstore  from where we can borrow code in form of packages

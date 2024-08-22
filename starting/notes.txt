@@ -1,0 +1,6 @@
+java Script is  alone itself is not capable or is not used for backend as it lacks some capabilities 
+So what Ryan dalph did was that he used the V8 engine of chrome browser (which carries out evrything) and did some experiments with it 
+Now the v8 engine was made in c++ so  the js which we write cannot be used directly for our operations
+So he created a  type of wrapper around the v8 engine which was of Js language
+So now the js which we write can be used for backend operations and it can be used for creating and this enviornment  is called  js run time enviornment or node js
+So now the js which we write can be used for backend operations......................

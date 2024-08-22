@@ -7,3 +7,12 @@ So now the js which we write can be used for backend operations.................
 
 
 npm  is like app store or playstore  from where we can borrow code in form of packages
+npm init -> package.json -> lekha johoka of the project ( every detail)
+
+to use any module just use the require function 
+eg  cosnt fs = require ('fs')
+now  we can use all the things which fs module does or have 
+
+
+note callback in js always means a  function;
+eg  fs.readFile('file.txt', function(err, data){})  here the function is callback

@@ -44,3 +44,11 @@ devDependencies : aese packages jo sirf development tk kaam aye aur once after t
 npm start  vs npm runs start 
 see not just about start command but ----- see when we install node js , thi node js just installs some commmands  in our OS table that can be detected easily by the pc , so we dont need to use the run command
 But for example we are creating our own commmands we need to  use  run satatement as to tell  system to look in Script for such kind of commmands
+
+
+EXPRESS JS:
+express js ek npm package h
+
+express js is a framework( framework  gives a type of flow that u need to follow to do things , but iniside that flow u can do everything according to  you maintaing the main flow given by the framework)
+
+express js manages everything from receiving the request and sending the response

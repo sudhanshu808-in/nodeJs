@@ -21,3 +21,25 @@ eg  fs.readFile('file.txt', function(err, data){})  here the function is callbac
 HTTPP : 
 There are some rules and regulations which are meant to be followed to do anyhting on the internet  that are set by creators of the internet
 And to make sure that you follow these ruels they are preinstalled in your  pc operating system 
+
+And http is the rule that needs to follow while sending and receiving data
+
+
+npm - node package manager
+
+**** jo  node js me preinstalled ata h ussy hum kehtey h module****
+**** jo hum npm se intall krte h ussy boltey h package****
+
+To install anything from npm we need to just use ::: npm i package_name
+uninstall package -> npm uninstall package_name
+
+installing the right version ----- nmp i package_name@version
+
+NODE MODULE folder - >  eg when we are installing a package (accessbilty )there are chaneces that this package have some dependencies which are needed by this package therefore these dependecies or packages will be present  in the node module folder; 
+
+dependecies :  packages and packages ki dependecies
+devDependencies : aese packages jo sirf development tk kaam aye aur once after the deployment are of no use 
+
+
+npm start  vs npm runs start 
+see not just about start command but ----- see whne we install node js , thi node js just installs some commmands  in our OS table that can be easi

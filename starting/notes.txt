@@ -42,4 +42,5 @@ devDependencies : aese packages jo sirf development tk kaam aye aur once after t
 
 
 npm start  vs npm runs start 
-see not just about start command but ----- see whne we install node js , thi node js just installs some commmands  in our OS table that can be easi
+see not just about start command but ----- see when we install node js , thi node js just installs some commmands  in our OS table that can be detected easily by the pc , so we dont need to use the run command
+But for example we are creating our own commmands we need to  use  run satatement as to tell  system to look in Script for such kind of commmands

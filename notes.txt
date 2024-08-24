@@ -74,3 +74,17 @@ eg a guard  holds and check the persons  entering and leaving  the building then
 but there can be no middleware also between the request to server and the route.....
 
 for eg attaching the user details to the request done by the same user......now the route will be having request plus the info about the user who did that request
+eg: 
+app.use(function(req,res,next){
+    console.log("middleware 111");
+    next();  //to send  it to next place for the request
+});
+next is used to tell move forward the request
+
+
+Error handling :
+erro  handling is done at the last of the programe......
+for adding error hanler just simply use ::: default error handler epress form google
+
+cookies : 
+Hum loog forntend p kuch bhi data display kar sktey h and jb bhi aap kuch bhi request backend p krogey toh jo fornt end p saved  data h wo automatically backend p chla  jayga

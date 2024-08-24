@@ -52,3 +52,21 @@ express js ek npm package h
 express js is a framework( framework  gives a type of flow that u need to follow to do things , but iniside that flow u can do everything according to  you maintaing the main flow given by the framework)
 
 express js manages everything from receiving the request and sending the response
+
+Routing : express js
+anything after the domain  name is the route 
+Eg     www.youtube.com/channels till .com is the domain and after that is the route name
+So to do  routing  with the help of Express we do following ::::
+
+app.get("/", function(req,res){
+    res.send("I is am the one");
+})
+
+But once the server is started we cannot  save or display any new changes done to the code on the server live 
+So we use nodemon which helps us to run our live server that shows any new modifications done to our system
+
+command line : nodemon file_name.js
+
+MIDDLEWARE : 
+If the server accepts a request  and holds that rqeuest for some time to perform some operations before sending it to the route , then this element is known as  middleware.....
+eg a guard  holds and check the persons  entering and leaving  the building then this guard act as a middleware......

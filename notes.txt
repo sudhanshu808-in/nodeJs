@@ -42,7 +42,7 @@ devDependencies : aese packages jo sirf development tk kaam aye aur once after t
 
 
 npm start  vs npm runs start 
-see not just about start command but ----- see when we install node js , thi node js just installs some commmands  in our OS table that can be detected easily by the pc , so we dont need to use the run command
+see not just about start command but ----- see when we install node js , this node js just installs some commmands  in our OS table that can be detected easily by the pc , so we dont need to use the run command
 But for example we are creating our own commmands we need to  use  run satatement as to tell  system to look in Script for such kind of commmands
 
 
@@ -88,3 +88,22 @@ for adding error hanler just simply use ::: default error handler epress form go
 
 cookies : 
 Hum loog forntend p kuch bhi data display kar sktey h and jb bhi aap kuch bhi request backend p krogey toh jo fornt end p saved  data h wo automatically backend p chla  jayga
+cookies are just user information
+cookies are stored in the browser of the user and are sent to the server with every request
+cookies are used to store user information and are sent to the server with every request
+Eg  due to these cookies only user need not to sign in again and again in same sites with each visit
+
+
+Dynamic Routing :
+Sometimes  only a certain part of the  route is changed and we need not to create a sperate  route for that
+eg : www.youtube.com/channels/123
+In this case 123 is the dynamic part of the route
+eg : profiles/harshita
+profiles/rahul
+profiles/rahul123
+therefore we need not to create sperate routes for these......
+
+STEPS for making dynamic routes :
+browser p jao url search kro jo apko chaye
+us url ka ek route bnao
+ab us url ko agr dynamic bnana h toh realise kro kyonsa part dynamic h aur us part k agy route mein  : (colon)  laga do 

@@ -20,7 +20,7 @@ app.get("/profiles/:username", function(req, res) {
 app.get("/profiles/:username/:age", function(req, res) {
     // res.render("index");
     // res.render("index");
-    res.send(req.params.age);
+    res.send(`Welcome ${req.params.username} of Age  :  ${req.params.age}`);
 });
 
 app.listen(3000, function() {

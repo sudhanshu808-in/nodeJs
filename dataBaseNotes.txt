@@ -1,0 +1,17 @@
+BACKEND has 2 servers :
+1> application server -> does/handles everything except data handling (accepting requests, login, logout , routing etc)
+2> Data Base server ->
+in this 
+DataBase -> collections -> Document
+Eg A project ka data base have  parts like sales collections, user data/colelctions so these subparts are known as collections......->
+ab es collections me me bhi agr kissi ek ka data dhund rhe h then it is known as Document
+
+---------------------------------------------------------------
+
+CODE                     DATA Base
+---------------------------------------------------------------
+mongoose.connect  ->     Data base Creation
+model create      ->     collection
+CREATE code       ->     document
+
+---------------------------------------------------------------

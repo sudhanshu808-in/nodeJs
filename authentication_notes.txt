@@ -1,0 +1,46 @@
+AUTHENTICATION: -Before showing/ giving the profile to the user we need to check wether the user exists or we can say we need to identify who the user is
+eg sumit wants to access his profile , we will check and authenticate and give the profile to him.......
+
+Authorized := now if sumit wants to change  something in database he cannot because he is not admin or have admin powers......
+now this thing is called Authorization , sumit is not authorized to perform some tasks.....
+
+
+SERVER har baar bhul jata h aap kon ho jb bhi app kissi cheez k leya requst krtey ho eg profile request , like request , comment request....
+essi vajha se SERVER hr baar apsy puchta h app kon ho ?? eslya mujhy har baaar server ko batana pdega m  kon hu which is very inconvinient
+
+
+Now to solve this we use  COOKIES and SESSIONS
+1> Browser request the server 
+2> User gives password and username etc details and server authorizes it 
+3> Once it is found that the user is there SERVER send the  requested data ALONG with a STRING 
+4> Next time the user requests for something from the server the USER passes this STRING every time with every requests 
+5> NOW the SERVER doesnt asks for AUTHENTICATION again beacuse we have the particular String........
+
+
+i> COOKIES SETUP PART
+
+ app.get("/",function(req,res){
+ res.cookie("name","shubham");
+ res.send('dome');
+ })
+
+ii>  For  CRYPTING the data we use salt and hash technique for this we have npm library 
+
+ bcrypt.genSalt(5, function(err, salt) {
+        bcrypt.hash("Shubham", salt, function(err, hash) {
+           console.log(hash);
+           
+        });
+    });
+
+salt is a random string in which our password is merged....
+5->length of the salt 
+hash is the final string
+eg:-> final hash =>>>> "$2b$05$5Q3Jvc3dQg/RxCXCu1pTE.91hlT1Fyc38O/TctGguRVU.yw9SUTWy"
+
+iii> Decrypt : we donont decrypt but instead COMPARE the og string with the HASH;
+
+ bcrypt.compare("shubham", "$2b$05$5Q3Jvc3dQg/RxCXCu1pTE.91hlT1Fyc38O/TctGguRVU.yw9SUTWy", function(err, result) {
+    console.log(result);
+       
+    });

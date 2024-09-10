@@ -1,17 +1,28 @@
-const express = require ('express');
+// const express = require ('express');
 const bcrypt = require('bcrypt');
 const { log } = require('npmlog');
+const jwt  = require('jsonwebtoken');
+const cookieParser = require('cookie-parser');
+import express from 'express';
 const app = express();
 
+// import 
+
+app.use(cookieParser());
+
 app.get("/",function(req,res){
-    bcrypt.compare("shubham", "$2b$05$5Q3Jvc3dQg/RxCXCu1pTE.91hlT1Fyc38O/TctGguRVU.yw9SUTWy", function(err, result) {
-    console.log(result);
-       
-    });
+let token = jwt.sign({email:"shubham@hgamil.com"},"secret")
+res.cookie("token",token);
+console.log("done");
+res.send("hello"); 
 })
 
 app.get("/read",function(req,res){
-res.send("cookies done");   
+// console.log(req.cookies.token);
+let data = jwt.verify(req.cookies.token, "secret");
+console.log(data);
+
+ 
 })
 
 app.listen(3000);

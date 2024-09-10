@@ -44,3 +44,13 @@ iii> Decrypt : we donont decrypt but instead COMPARE the og string with the HASH
     console.log(result);
        
     });
+
+
+iv> JWT 
+simply jb humare pass server unique string bhej deta h first time to wo hum har bar bhwjtwy h server ko taki wapis login  na krna pdega
+jwt he es encrypted complete string me se decrypt kkrke dhundta h ki konse particular user ki ye request h 
+
+let token = jwt.sign({email:"shubham@hgamil.com"},"secret")
+res.cookie("token",token);
+
+es token me sara data h..

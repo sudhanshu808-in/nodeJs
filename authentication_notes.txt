@@ -54,3 +54,5 @@ let token = jwt.sign({email:"shubham@hgamil.com"},"secret")
 res.cookie("token",token);
 
 es token me sara data h..
+
+jwt registration + login me dono me SETUP krna pdta h for COOKIES 

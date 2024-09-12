@@ -17,6 +17,8 @@ now  we can use all the things which fs module does or have
 note callback in js always means a  function;
 eg  fs.readFile('file.txt', function(err, data){})  here the function is callback
 
+NODE JS architecture : 
+all requests --> Event queue --> event loop 
 
 HTTPP : 
 There are some rules and regulations which are meant to be followed to do anyhting on the internet  that are set by creators of the internet

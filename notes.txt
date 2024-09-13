@@ -116,3 +116,5 @@ STEPS for making dynamic routes :
 browser p jao url search kro jo apko chaye
 us url ka ek route bnao
 ab us url ko agr dynamic bnana h toh realise kro kyonsa part dynamic h aur us part k agy route mein  : (colon)  laga do 
+
+------------------------------------------------------------------------------------------------------------------------

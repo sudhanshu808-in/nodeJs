@@ -1,0 +1,8 @@
+Example URL: https://www.example.com/path/to/resource?name=value#section
+
+Scheme: https (secure protocol)
+Domain: www.example.com (website address)
+Path: /path/to/resource (specific resource location)
+Query: ?name=value (optional parameters)
+Fragment: #section (specific part of the resource)
+This URL accesses a secure resource on a website, with parameters and a specific section identifier.

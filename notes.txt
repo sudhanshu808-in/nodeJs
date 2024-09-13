@@ -33,7 +33,7 @@ https : protocol
 www.google.com : domain name
 /path : path of the resource
 userid=1&a=2 : query parameters
-
+.
 npm - node package manager
 
 **** jo  node js me preinstalled ata h ussy hum kehtey h module****

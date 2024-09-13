@@ -26,6 +26,13 @@ And to make sure that you follow these ruels they are preinstalled in your  pc o
 
 And http is the rule that needs to follow while sending and receiving data
 
+(req,res)->carries  the whole object of the request from the user
+
+eg -> https://www.google.com/path?userid=1&a=2
+https : protocol
+www.google.com : domain name
+/path : path of the resource
+userid=1&a=2 : query parameters
 
 npm - node package manager
 

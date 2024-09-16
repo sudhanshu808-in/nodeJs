@@ -38,7 +38,7 @@ const url = require('url');
 const { parse } = require('path');
 
 const server = http.createServer((req, res) => {
-    const  log = `${Date.now()} : ${req.url} Request received \n`;
+    const  log = `${Date.now()} : ${req.url} Method : ${req.method} Request received \n`;
     // const myurl = parse()
     const myUrl = url.parse(req.url,true)
     fs.appendFile("log.txt",log,(err,data)=>{

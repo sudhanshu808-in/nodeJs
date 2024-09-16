@@ -10,3 +10,11 @@
 1726257149245 : /favicon.ico Request received 
 1726257168825 : /search?name=shubham&query=yt Request received 
 1726257168856 : /favicon.ico Request received 
+1726258688044 : / Method : GET Request received 
+1726258691291 : /favicon.ico Method : GET Request received 
+1726258697799 : /about Method : GET Request received 
+1726258697830 : /favicon.ico Method : GET Request received 
+1726258702238 : / Method : GET Request received 
+1726258704571 : /favicon.ico Method : GET Request received 
+1726258709740 : /search?name=shubham&query=yt Method : GET Request received 
+1726258709767 : /favicon.ico Method : GET Request received 
